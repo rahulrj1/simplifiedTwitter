@@ -1,0 +1,24 @@
+GET http://localhost:3001/tweets
+
+### api to view tweets of a user
+GET http://localhost:3001/user/rahul-rj
+
+### api to view any particular tweet using the tweet id
+GET http://localhost:3001/tweet/6393ada798ee4f7c31ce7b43
+
+### api to create a tweet
+POST http://localhost:3001/createTweet
+Content-Type: application/json 
+
+{
+    "tweetMessage": "I am a new tweet",
+    "uId": "new-user"
+}
+
+### user find api
+# POST http://localhost:3001/tweets/user
+# Content-Type: application/json 
+
+# {
+#     "uId": "shivin_jaiswal"
+# }
