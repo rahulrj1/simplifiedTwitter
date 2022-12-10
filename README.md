@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Simple Twitter
 
 This project is developed as an assignment.
 
